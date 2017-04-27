@@ -4,6 +4,7 @@ spring:
    config:
      server:
        git :
-         uri: https://github.com/manoj493/configdata
+         uri: https://github.com/manoj493/feo
+         searchPaths: configdata
 server:
   port: 8001
