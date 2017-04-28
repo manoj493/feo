@@ -15,13 +15,22 @@ public class Inventory implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@PrimaryKey
-	private String skuId="1234";
+	private String skuId;
 	
 	private int stockLevel=1;
 	
 	private int altAFS=2;
 	
 	private int iGR=3;
+	
+	public Inventory(){}
+	
+	public Inventory(String skuId, int stockLevel, int altAFS, int iGR){
+		this.skuId=skuId;
+		this.stockLevel=stockLevel;
+		this.altAFS=altAFS;
+		this.iGR=iGR;
+	}
 	
 	public int getStockLevel() {
 		return stockLevel;

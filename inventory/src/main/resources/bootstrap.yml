@@ -5,6 +5,7 @@ spring:
     name: inventory-service
   cloud:
     config:
-      uri: http://localhost:8001
+      uri: http://configserver:8001
 server:
   port: 8080
+  contextPath: /service

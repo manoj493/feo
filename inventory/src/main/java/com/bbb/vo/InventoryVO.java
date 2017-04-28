@@ -1,5 +1,8 @@
 package com.bbb.vo;
 
+import io.swagger.annotations.ApiModel;
+
+@ApiModel(value="InventoryVO object")
 public class InventoryVO {
 	
 	private String skuId="1234";
