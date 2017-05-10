@@ -2,4 +2,4 @@ spring:
   data:
     cassandra:
       keyspace-name: inventorykeyspace
-      contact-points: 172.17.0.2,172.17.0.3
+      contact-points: cassandra-db-east
