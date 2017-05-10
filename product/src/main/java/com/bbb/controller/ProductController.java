@@ -17,13 +17,13 @@ import io.swagger.annotations.ApiParam;
 public class ProductController {
 
 	@Autowired
-	ProductManager inventoryManager;
+	ProductManager productManager;
 
 	@RequestMapping(value = "/product/{productId}", method = RequestMethod.GET, produces = {
 			MediaType.APPLICATION_JSON_VALUE })
 	@ApiOperation(value = "Get the Inventory of a sku")
 	public ProductVO getInventory(@ApiParam(name = "productId", value = "Sku Id") @PathVariable int productId) {
-		return inventoryManager.findProductBySite(productId);
+		return productManager.findProductBySite(productId);
 	}
 
 	

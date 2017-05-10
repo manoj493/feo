@@ -68,7 +68,7 @@
 	            <artifactId>docker-maven-plugin</artifactId>
 	            <version>0.4.11</version>
 	            <configuration>
-	                <imageName>docker/configserver</imageName>
+	                <imageName>us.gcr.io/boreal-century-166415/configserver</imageName>
 	                <dockerDirectory>src/main/docker</dockerDirectory>
 	                <resources>
 	                    <resource>

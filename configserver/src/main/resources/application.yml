@@ -11,6 +11,9 @@ spring:
 server:
   port: 8001
 eureka:
+  instance:
+    hostname: configserver
   client:
     service-url:
-      defaultZone: http://localhost:8011/eureka/
+      defaultZone: http://eurekaserver:8011/eureka/
+      

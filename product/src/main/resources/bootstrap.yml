@@ -10,7 +10,7 @@ spring:
         enabled: true
 #      uri: http://configserver:8001
 server:
-  port: 8080
+  port: 8081
   contextPath: /service
 eureka:
   client:

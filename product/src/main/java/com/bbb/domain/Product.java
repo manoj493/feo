@@ -21,10 +21,10 @@ public class Product implements Serializable{
 	
 	
 	
-	public Product(int productId, String name, String desc){
+	public Product(int productId, String name, String description){
 		this.productId=productId;
 		this.name=name;
-		this.description=desc;
+		this.description=description;
 	}
 
 
@@ -59,8 +59,8 @@ public class Product implements Serializable{
 
 
 
-	public void setDescription(String desc) {
-		this.description = desc;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	
 	

@@ -1,0 +1,2 @@
+Connecting to eurekaserver:8011 (10.3.250.67:8011)
+wget: can't open 'index.html': File exists

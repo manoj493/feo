@@ -85,7 +85,7 @@
 	            <artifactId>docker-maven-plugin</artifactId>
 	            <version>0.4.11</version>
 	            <configuration>
-	                <imageName>docker/inventoryapp</imageName>
+	                <imageName>us.gcr.io/boreal-century-166415/inventoryapp</imageName>
 	                <dockerDirectory>src/main/docker</dockerDirectory>
 	                <resources>
 	                    <resource>
