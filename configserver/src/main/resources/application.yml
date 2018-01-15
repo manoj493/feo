@@ -5,15 +5,9 @@ spring:
      server:
        git :
          uri: https://github.com/manoj493/feo
+         #uri: https://github.com/spring-cloud-samples/config-repo
          searchPaths: configdata
  application:
     name: configserver
 server:
   port: 8001
-eureka:
-  instance:
-    hostname: configserver
-  client:
-    service-url:
-      defaultZone: http://eurekaserver:8011/eureka/
-      
