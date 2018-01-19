@@ -1,0 +1,6 @@
+FlagDrivenFunctions:
+    scene7url: http://www.bedbathus.com
+
+ThirdPartyUrls:
+    port: 8080-01
+    dbport: 8109
